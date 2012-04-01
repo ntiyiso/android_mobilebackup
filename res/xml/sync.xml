@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="sych_key"
+        android:title="Sync items" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="syncContacts"
+            android:summary="Syncronise your contacts"
+            android:summaryOn="true"
+            android:title="Contacts" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="syncNotes"
+            android:summary="Syncronise your notes"
+            android:summaryOn="true"
+            android:title="Notes" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
